@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 
-class CenterPage extends StatefulWidget {
+class AlignPage extends StatefulWidget {
   @override
-  _CenterPageState createState() => _CenterPageState();
+  _AlignPageState createState() => _AlignPageState();
 }
 
-class _CenterPageState extends State<CenterPage> {
+class _AlignPageState extends State<AlignPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Center'),
+        title: Text('Align'),
       ),
-      body: Center(
+      body: Align(
+        alignment: Alignment.centerRight,
         child: Container(
           width: 100,
           height: 100,
           color: Colors.red,
-          margin: EdgeInsets.all(10),
         ),
-      ),
+      )
     );
   }
 }

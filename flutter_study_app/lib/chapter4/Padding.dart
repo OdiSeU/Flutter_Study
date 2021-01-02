@@ -10,7 +10,7 @@ class _PaddingPageState extends State<PaddingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Container'),
+        title: Text('Padding'),
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(20, 30, 40, 50),
