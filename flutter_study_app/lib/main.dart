@@ -23,6 +23,7 @@ import 'package:flutter_study_app/chapter4/Text.dart';
 import 'package:flutter_study_app/chapter4/Image.dart';
 import 'package:flutter_study_app/chapter4/Progress.dart';
 import 'package:flutter_study_app/chapter4/CircleAvatar.dart';
+import 'package:flutter_study_app/chapter5/TextField.dart';
 
 void main() => runApp(FlutterStudyApp());
 
@@ -51,6 +52,7 @@ var pages = {
   '/Image': (context) => ImagePage(),
   '/Progress': (context) => ProgressPage(),
   '/CircleAvatar': (context) => CircleAvatarPage(),
+  '/TextField': (context) => TextFieldPage(),
 };
 
 class FlutterStudyApp extends StatelessWidget {
